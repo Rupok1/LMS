@@ -1,0 +1,59 @@
+---Inserting data into login table----
+
+INSERT INTO LOGIN VALUES(1807001,'b1807001');
+INSERT INTO LOGIN VALUES(1807002,'b1807002');
+INSERT INTO LOGIN VALUES(1807003,'b1807003');
+INSERT INTO LOGIN VALUES(1807004,'b1807004');
+INSERT INTO LOGIN VALUES(1807005,'b1807005');
+INSERT INTO LOGIN VALUES(1807006,'b1807006');
+INSERT INTO LOGIN VALUES(1807007,'b1807007');
+INSERT INTO LOGIN VALUES(1807008,'b1807008');
+INSERT INTO LOGIN VALUES(1807009,'b1807009');
+INSERT INTO LOGIN VALUES(1807024,'b1807024');
+
+---Inserting data into admin table----
+
+INSERT INTO ADMIN VALUES(1807003,'humayan',01721019298);
+INSERT INTO ADMIN VALUES(1807024,'Abrar',01521584145);
+
+---Inserting data into Users table----
+
+INSERT INTO USERS VALUES(1807001,'Mahin Ahmad',01921387773,'Dhaka',2,1807003);
+INSERT INTO USERS VALUES(1807002,'Akil Raihan Iftee',01752959637,'Joypurhat',1,1807003);
+INSERT INTO USERS VALUES(1807004,'Abdullah Al Shafi',01715736878,'Dhaka',2,1807003);
+INSERT INTO USERS VALUES(1807005,'Nafiul Alam',01612016612,'Bogura',1,1807003);
+INSERT INTO USERS VALUES(1807006,'Subah Nawar',01825556567,'Chittagong',2,1807003);
+INSERT INTO USERS VALUES(1807007,'Asfia Moon Oishy',01746701905,'Dhaka',1,1807024);
+INSERT INTO USERS VALUES(1807008,'Md.Taquil Islam',01778113626,'Rajshahi',1,1807024);
+INSERT INTO USERS VALUES(1807009,'Md.Tasnin Tanvir',01778113626,'Rajshahi',1,1807024);
+
+
+---Inserting data into Book table----
+
+INSERT INTO BOOK VALUES('123-21-23','Database System Concept','Abraham Silberschartz',1807001,1807003);
+INSERT INTO BOOK VALUES('123-21-24','Introduction to Automata Theory Languages and Computation','Rajeev Motwani',1807002,1807003);
+INSERT INTO BOOK VALUES('123-21-25','Microprocessors','Ajit Pal',1807004,1807024);
+INSERT INTO BOOK VALUES('123-21-26','Microprocessors','Ajit Pal',1807006,1807024);
+INSERT INTO BOOK VALUES('123-21-27','Teach Yourself C','Herbert Schildt',1807007,1807003);
+
+
+---Inserting data into Issued by Table---
+
+INSERT INTO ISSUED_BY VALUES('123-21-23',1807003,'1 jul,2022',0,'1 aug,2022');
+INSERT INTO ISSUED_BY VALUES('123-21-24',1807003,'2 jul,2022',0,'2 aug,2022');
+INSERT INTO ISSUED_BY VALUES('123-21-25',1807024,'3 jul,2022',0,'3 aug,2022');
+INSERT INTO ISSUED_BY VALUES('123-21-26',1807024,'4 jul,2022',0,'4 aug,2022');
+INSERT INTO ISSUED_BY VALUES('123-21-27',1807003,'5 jul,2022',0,'5 aug,2022');
+
+
+---Inserting data into Book Record Table---
+
+INSERT INTO BOOK_RECORD VALUES('123-21-23','Database System Concept','Abraham Silberschartz','Issued','1 june,2022',1807003);
+INSERT INTO BOOK_RECORD VALUES('123-21-24','Introduction to Automata Theory Languages and Computation','Rajeev Motwani','Issued','10 june,2022',1807003);
+INSERT INTO BOOK_RECORD VALUES('123-21-25','Microprocessors','Ajit Pal','Issued','3 jul,2022',1807024);
+INSERT INTO BOOK_RECORD VALUES('123-21-26','Microprocessors','Ajit Pal','Issued','4 jul,2022',1807024);
+INSERT INTO BOOK_RECORD VALUES('123-21-27','Teach Yourself C','Herbert Schildt','Issued','5 jul,2022',1807024);
+INSERT INTO BOOK_RECORD VALUES('123-21-28','Object Oriented Software Engineering','Timothy C. Lethbridge','Available','5 jul,2022',1807024);
+INSERT INTO BOOK_RECORD VALUES('123-21-29','Microprocessor Systems The 8086/8088 Family','Glenn A. Gibson','Available','5 jul,2022',1807024);
+INSERT INTO BOOK_RECORD VALUES('123-21-30','Microprocessors,PC Hardware and Interfacing','N.Mathivanan','Available','5 jul,2022',1807024);
+INSERT INTO BOOK_RECORD VALUES('123-21-31','System Analysis and Design','Elias M.Awad','Available','5 jul,2022',1807024);
